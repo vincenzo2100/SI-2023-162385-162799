@@ -1,0 +1,13 @@
+australian 15 690
+car 7 1728
+fertilityDiagnosis 10 100
+german-credit 21 1000
+heartdisease 14 270
+hepatitis-filled 20 155
+house-votes-84 17 435
+mushroom-modified-filled 23 8124
+nursery 9 12960
+diabetes 9 768
+soybean-large-all-filled 36 683
+SPECT-all-modif 23 267
+SPECTF-all-modif 45 267
