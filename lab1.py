@@ -6,7 +6,7 @@ data = pd.read_csv("diabetes.txt", sep=" ", header=None)
 info = pd.read_csv("_info-data-discrete.txt", sep=" ", header=None)
 attribute_list = ["a1n", "a2n", "a3n", "a4n", "a5n", "a6n", "a7n", "a8n", "a9d"]
 print(f"Symbole klas decyzyjnych: {pd.unique(data[8])}")
-print(f"Wielkoś klas decyzyjnych (liczby obiektów w klasach): {info[2][9]}")
+print(f"Wielkoś klas decyzyjnych (liczby obiektów w klasach): {data[8].value_counts()}")
 print("Minimalne wartość atrybutów: ")
 for col in data:
     print(f"{attribute_list[col]}: {data[col].min()}")
